@@ -13,21 +13,22 @@
 </head>
 <body>
     <div class="login">
-        <div class="form-container">
+        <div class="form-login-container">
             <img src="../assets/logos/logo_yard_sale.svg" alt="Logo" class="logo">
-            <section class="form-password-recovery">
-                <h1 class="title">Create a new password</h1>
-                <p class="subtitle">Enter a new password for you account</p>
-
+            <section class="form-login">
                 <form action="" class="form">
+                    <label for="email" class="label">Eamil address</label>
+                    <input type="email" id="email" placeholder="yard_sale@example.com" class="input input-email">
+
                     <label for="password" class="label">Password</label>
                     <input type="password" id="password" placeholder="**********" class="input input-password">
 
-                    <label for="new-password" class="label">Re-enter password</label>
-                    <input type="password" id="new-password" placeholder="**********" class="input input-password">
+                    <input type="submit" value="Log in" class="primary-button login-button">
 
-                    <input type="submit" value="Confirm" class="primary-button login-button">
+                    <a href="#" class="forgot-pw">Forgot my password</a>
                 </form>
+
+                <input type="button" value="Sign up" class="secundary-button signup-button">
             </section>
         </div>
     </div>
