@@ -1,0 +1,89 @@
+:root{
+    /* colores */
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark : #232830;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+nav{
+    width: 100vw;
+    min-width: 375px;
+    height: 31px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.046805)
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+
+}
+nav ul li{
+    list-style: none;
+}
+nav .menu-img{
+    width: 23px;
+    height: 18px;
+}
+nav .logo-img{
+    width: 96px;
+    height: 20px;
+}
+nav .cart-img{
+    width: 20px;
+    height: 20px;
+}
+.main-container{
+    width: 375px;
+    place-items: center;
+}
+.main-container h1{
+    margin-top: 35px;
+    padding-left: 17px;
+}
+.form-create-account{
+    width: 300px;
+    margin: 47px 17px;
+}
+.form-create-account label{
+    font-size: var(--sm);
+    font-weight: bold;
+    line-height: 2.2rem;
+}
+.form-create-account .input{
+    min-width: 340px;
+    height: 42px;
+    margin-bottom: 24px;
+    font-size: var(--md);
+    padding-left: 8px;
+    background-color: var(--text-input-field);
+    color: #797979;
+    border: none;
+    border-radius: 10px;
+}
+.primary-button{
+    width: 340px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: var(--lg);
+    color: var(--white);
+    background-color: var(--hospital-green);
+    border: none;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 24px;
+}
